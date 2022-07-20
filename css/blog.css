@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+	background-color: white;
+}
+
+.main-img img{
+
+    height:400px;
+    width:100%;
+    object-fit:cover;
+}
+
+.img-txt{
+	position:absolute;
+	top:170px;
+	color:white;
+	font-size:48px;
+	
+	width:55%;
+	text-align:center;
+	left:25%;
+}
+
+@media (max-width:1250px){
+	.img-txt{
+		font-size:40px;
+	}
+}
+
+.img-txt a{
+
+    color: white;
+}
+
+.c-grid{
+	
+	margin-top:60px;
+	justify-content:center;
+	display:grid;
+	grid-template-columns:900px 300px ;
+	column-gap:30px;
+	row-gap:50px;
+    
+}
+
+@media (max-width:1250px){
+	.c-grid{
+		grid-template-columns:400px;
+	}
+}
+
+
+.c2-start{
+	height:40px;
+	width:40px;
+	color:black;
+	font-size:14px;
+	border:solid 0.5px white;
+	border-radius:35px;
+	transition:background-color 0.15s;
+	cursor:pointer;
+}
+
+
+
+#pages{
+    text-align: center;
+    display: flex;
+
+}
+
+#content{
+    text-align: left;
+}
+
+.left img{
+
+    width:100%;
+}
+
+#Search{
+    width:100%;
+    padding: 10px;
+    border:solid 0.5px gray;
+    border-radius: 5px;
+
+}
+
+.c-start{
+	height:40px;
+	width:auto;
+	color:black;
+	font-size:14px;
+	border-style:solid;
+	border-color:rgb(245, 240, 240);
+    color: black;
+    background-color: rgb(245, 240, 240);
+	border-radius:35px;
+	transition:background-color 0.15s;
+	cursor:pointer;
+    padding: 5px;
+}
+
+.tags{
+    border: solid 0.5px rgb(235, 234, 234);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.b-r{
+    border: solid 0.5px rgb(235, 234, 234);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.b-r img{
+    width:70px;
+}
+
+.c3-grid{
+    margin-top: 30px;
+    margin-bottom: 30px;
+	justify-content:center;
+	display:grid;
+	grid-template-columns:70px 140px;
+	column-gap:30px;
+	row-gap:50px;
+}
+
+#next{
+    width:80px;
+    border-radius: 20px;
+    margin-left: 40px;
+    border:solid 0.5px rgb(233, 230, 230);
+}
+
+#next:hover{
+    
+    background-color: rgb(190, 187, 187);
+    border:solid 0.5px rgb(212, 210, 210);
+}
+
+#active{
+    background-color: rgb(111, 108, 253);
+    border:solid 0.5px rgb(35, 1, 190);
+    color: white;
+}
+
+
+
+
+

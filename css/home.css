@@ -1,0 +1,287 @@
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+        
+        /* float: left; */
+    }
+    .fpage{
+        position: relative;
+        z-index:10;
+        background-color: #ffffff;
+		width:100%;
+    }
+
+
+    .whole{
+        position: relative;
+        top: 200px;
+		z-index:5;
+		background-color:white;
+        
+    }
+    .slide{
+        position: relative;
+        /* left: -200px; */
+        /* overflow: hidden; */
+        /* width: 300%; */
+        /* animation: na 15s; */
+    }
+    #slider{
+        overflow: hidden;
+        /* width: 1600px; */
+    }
+    #slider figure{
+        position: relative;
+        width: 500%;
+        margin: 0%;
+        animation: 50s slid infinite;
+    }
+    #slider figure img{
+        width: 20%;
+        float: left;
+
+    }
+    .slide{
+        width: 100%;
+        margin-left: 200px;
+        position: relative;
+        left: -200px;
+    }
+    @keyframes slid{
+        0%{
+            left: 0;
+        }
+        20%{
+            left: 0;
+        }
+        25%{
+            left: -100%;
+        }
+        45%{
+            left: -100%;
+        }
+        
+        50%{
+            left: -200%;
+        }
+        70%{
+            left: -200%;
+        }
+        75%{
+            left: -300%;
+        }
+        95%{
+            left: -300%;
+        }
+        100%{
+            left: -400%;
+        }
+    }
+
+    button.bt{
+        position: relative;
+        z-index: 10;
+        top: -400px;
+        left: 40%;
+        padding: 15px;
+        background-color: rgba(8, 8, 8, 0.527) ;
+        color:rgb(255, 255, 255);
+        border-radius: 40px;
+        border-color: white;
+        /* border-width: 10px; */
+        font-size: large;
+        transition: .5s;
+        animation: move 15s infinite;
+    }
+    @keyframes move {
+        0%   {top: -300px;}
+        25%  {top: -300px;}
+        50%	{top:160px;}
+        75%  {top:-300px; }
+        100% {top: -300px;}
+        0% {opacity:1;}
+        25% {opacity:1;}
+        30% {opacity:0;}
+        60% {opacity:0;}
+        75% {opacity:1;}
+        100% {opacity:1;}
+        
+      }
+    button.bt:hover{
+        background-color: blue;
+        border-color: blue;
+    }
+    figure:hover .bt{
+        background-color: aqua;
+    }
+    svg{
+        padding: 10px;
+        padding-top: 20px;
+        width: 100px;
+        height: 100px;
+        border-color: rgb(15, 66, 108);
+        border-width: 20px;
+        transition: .5s;
+        
+    }
+    .index{
+        width: 180px;
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        height: 220px;
+        /* position: absolute; */
+        float: left;
+        margin-left: 5%;
+        position: relative;
+        top: -300px;
+        margin-top: 5%;
+
+    }
+    svg:hover{
+        transform: scale(1.2);
+    }
+    p.x{
+        color: #ffffff;
+        font-size: 20px;
+        padding-top: 10px;
+        font-weight: bolder;
+        transition: .5s;        
+    }
+    .submenu{
+        position: relative;
+        /* width: 100%; */
+        /* left: 100px; */
+        margin-left: 35px;
+
+        
+    }
+    p.x:hover{
+        color: rgb(0, 0, 0);
+    }
+    .course img{
+    width: 250px;
+    transition: 0.5s;
+    margin-right: 100px;
+    position: relative;
+    left: -12.55px;
+    padding: 10px;
+    }
+    .course img:hover{
+        transform: scale(.9);
+    }
+    .course{
+        position: relative;
+        /* top: -100px; */
+        /* border: 3px black solid; */
+        box-shadow: -1px -1px 10px 5px #888888;
+        width: 250px;
+        padding: 1%;
+        text-align: center;
+        margin-top: 2%;
+        /* padding: 2px; */
+        /* margin-left: -1%; */
+        /* padding-bottom: 10%; */
+        height: 350px;
+        float: left;
+        margin-left: 30px;
+        transition: 0.5s;
+		background-color:white;
+    }
+    .course p{
+        margin-top:20px ;
+        position: relative;
+        top: 1px;
+    }
+    .course p:hover{
+        color: blue;
+    }
+    .courses{
+        /* background-color: #888888; */
+        /* text-align: center; */
+        /* margin-top: 30px; */
+        position: relative;
+        top: -200px;
+        margin: 200px;
+        /* margin: auto; */
+        margin-left: 4%;
+        /* position: absolute; */
+        /* width: 1000px; */
+		background-color:white;
+    }
+    .course button{
+        position: relative;
+        top: 70px;
+        background-color: rgb(43, 89, 226);
+        color: #ffffff;
+        padding: 2%;
+        padding-top: 5px;
+        text-align: center;
+        border-radius: 10px;
+        border-color: #ffffff00;
+        transition: 0.4s;
+        /* box-shadow: none; */
+    }
+    .course button:hover{
+        transform: scale(1.1);
+        background-color: orange;
+    }
+    .course p{
+        font-weight: 700;
+    }
+    .vm{
+        background-color: rgb(24, 24, 102);
+        color: #ffffff;
+        position: relative;
+        top: 700px;
+        left: -35%;
+        padding:10px 20px;
+        transition: .5s;
+        border-color: #88888800;
+        border-radius: 10px;
+        font-size: larger;
+    }
+    .vm:hover{
+        background-color: orangered;
+    }
+    .end{
+        margin-bottom:535px;
+		position:relative;
+		z-index:5;
+        /* padding-bottom:600px; */
+    }
+    .end img{
+        position: relative;
+        top:-60px;
+        width: 100%;
+        height: 700px;
+        /* background-image: -moz-radial-gradient(black ,white); */
+    }
+
+.imgtext{
+    position: absolute;
+    padding-left: 100px;
+}
+.imgtext h1{
+    position: relative;
+    top: -500px;
+    font-weight: 800;
+    font-size: 60px;
+}
+.bb{
+    position: relative;
+    top: -450px;
+    left: 50px;
+    font-weight: 700;
+}
+.min{
+    position: relative;
+    top: -400px;
+    left: -50px;
+    padding-top: 10px;
+}

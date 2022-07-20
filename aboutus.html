@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+    <html lang='en'>
+
+<head>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/navbar2.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+</head>
+<style>
+    *{  
+        margin-left: 0px ;
+        text-transform: capitalize;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .details img{
+        width: 35%;
+        float: right;
+        padding-right: 10%;
+        position: relative;
+        top: -280px;
+        padding-left: 2%;
+    }
+    .details p{
+        width:45% ;
+        padding-left: 8%;
+        padding-bottom: 20px;
+        /* padding-right: 20px; */
+    }
+    .details h1{
+        font-size: 40px;
+        padding-left: 150px;
+        padding-bottom: 40px;
+        color: rgb(41, 41, 118);
+    }
+    .list li::before
+    {   
+        content: "\1F44D";
+        position: relative;
+        font-size: smaller;
+        
+      
+
+        
+    }
+    .list li{
+        list-style-type: none;
+    }
+    .list{
+        padding-left: 8%;
+        position: relative;
+        top: 10px;
+        /* padding-right: 50%; */
+
+    }
+    .list p{
+        padding-left: 30px;
+        opacity: 50%;
+        transition: .5s;
+        width:45% ;
+
+    }
+    .list p:hover{
+        opacity: 100%;
+    }
+    .btn input{
+        padding: 10px 100px;
+        margin-right:-6px;
+        position: relative;
+        left: 57%;
+        transition: .3s;
+        color: aliceblue;
+        background-color: blue;
+        border-color: rgba(240, 248, 255, 0);
+    }
+    /* .btn input:hover{
+        color: blue;
+        background-color: aliceblue;
+    } */
+.box{
+    /* text-align: center; */
+    /* border: 5px solid black; */
+    box-shadow: 0px 0px 15px #aaaaaa;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    width: 50%;
+    margin-left: 29%;
+    margin-top: 6%;
+}
+.foam{
+    margin-top: 10%;
+}
+.foam h1{
+    margin-left: 10%;
+}
+
+/*.foam-input{
+     margin-top: 3%; 
+     margin-left: 5%; 
+}*/
+.foam label{
+    
+    position: relative;
+}
+.foam button{
+    margin-top: 50px;
+}
+.foam input,textarea,label{
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.foam button{
+    margin-left: 45%;
+    padding: 10px 40px;
+    background-color: blue;
+    color: aliceblue;
+    border-color: rgba(240, 248, 255, 0);
+}
+#third,#nth{
+    width: 400px;
+    position: relative;
+    left: 60%;
+    top: -350px;
+}
+/* .box{
+    float: left;
+}
+    */
+    .idk{
+        text-decoration: none;
+    }
+    body{
+		margin:0;
+		padding:0;
+        background-color: rgb(214, 214, 214);
+    }
+    .whole{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .yas img{
+        width: 40%;
+        margin-left: 10%;
+    }
+	.navbar ul li a{
+		color:black;
+	}
+	
+</style>
+<body>
+    <div id = "all">
+
+
+    <script src = "js/navbarjs.js"></script>
+        <div  id = "navbar" class = "navbar" >
+            <nav id = "nav1" >
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <p><span >MENU</span></p>
+                    <a href="homenew.html">HOME</a>
+                    <a href="courses.html">COURSE</a>
+                    <a href="ourpanel.html">OUR PANEL</a>
+                    <a href="#">EVENT</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#">ENGLISH (EN)</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="#">SIGN UP!</a>
+                    <a href="#">0112242209</a>
+                    <a href="#">HELLO@LANKAACDEMY.LK</a>
+                    <a href="#">BECOME AN INSTRUCTOR</a>
+                    
+                  
+                  </div>
+                  
+                  <div id="main">
+                    <span style="font-size:30px;cursor:pointer;color:black;" onclick="openNav()">&#9776; </span>
+                  </div>
+                
+                  <a href = "home.html"><img class ="logo" src="Images/flogo.png"></a>
+                
+            
+                <ul>
+                    <li><a href = "homenew.html"> HOME </a></li>
+                    <li><a href = "courses.html">COURSES </a></li>
+                    <li><a href = "ourpanel.html">OUR PANEL  </a></li>
+                    <li><a href = "event.html"> EVENTS <i class="fa-solid fa-angle-down"> </i> </a></li>
+                    <li><a href = "#"> BLOG </a></li>
+                    <li><a href = "contact.html">CONTACT </a></li>
+                    <li><a href = "#"> ENGLISH(EN) <i class="fa-solid fa-angle-down"> </i> </a></li>
+                    
+                    
+                    <li style="margin-left:100px;margin-right:10px;border-right:1px solid rgba(255,255,255,0.2);">
+                    <label class="ico"><i class="fa-solid fa-user"></label></i>
+                    <a href = "#"> Login/Register </a>
+                    </li>
+                    <label class="ico"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    
+                    
+                </ul>
+                
+                
+            </nav>
+        </div>
+
+    
+    <div class="whole"> <div class="details"><br>
+        <h1>Welcome to Lanka Academy!</h1>
+        <p>Lanka Academy is a versatile online platform which connects students all over the world to the best instructors both locally and internationally.</p>
+        <p>We’re dedicated to give you the very best of the professionalism that you search for with a focus on dependability , integrity and quality.</p>
+        <p>We hope you enjoy our products as much as we enjoy offering them to you.</p>
+        <img src="https://www.lankaacademy.lk/wp-content/uploads/2021/03/about-us-new-1333x1536.jpg" alt="">
+    </div>
+    <div class="list">
+        <h2><li>
+            transforming lives
+        </li></h2>
+        <p>
+            Not everyone is talented for the same thing. That’s why we have the word “difference” in our dictionaries. Lanka Academy is there to give value to individual skills and push our students to the ladder of success through e-learning. Anyone, anywhere can join with us and transform their lives through quality education.
+        </p>        
+        
+        <h2><li>
+            enhancing professionalism
+        </li></h2>
+        <p>
+            We believe that Lanka Academy will be an entry for both our students and instructors to tackle local and international market spaces.        </p>        
+        
+        <h2><li>
+            our instructors
+        </li></h2>
+        <p>
+            Our instructors are enthusiastic and passionate where students get an opportunity to learn from well qualified and experienced instructors with value for money.        </p>
+    </div>
+    <div class="btn"> 
+        <input type="button" value="misson" id="trggle">
+        <input type="button" value="vision" id="toggle">
+    </div>
+
+    <div class="yas"><img src="https://www.lankaacademy.lk/wp-content/uploads/2021/03/about-us-02-1536x1024.jpg" alt=""></div>
+    <div id="third" style="display: none;"><p>To provide quality education with value for money in an entertaining and interactive manner.</p></div>
+    <div class="" id="nth" ><p>To be the most respected and trusted online education provider in Sri Lanka.</p></div>
+    <script>
+      const targetDiv = document.getElementById("third");// display none 
+      const btn = document.getElementById("toggle");// third diplay none
+      const butn = document.getElementById("trggle");
+      const getDiv = document.getElementById("nth");
+      btn.onclick = function () {
+        if (targetDiv.style.display === "block" || getDiv.style.display === "none") {
+          targetDiv.style.display = "block";
+          getDiv.style.display = "none";
+          btn.style.backgroundColor="white"
+          butn.style.backgroundColor="blue"
+        // btn.style.backgroundColor="none"
+        btn.style.color="black"
+
+        } else {
+            btn.style.backgroundColor="white"
+            butn.style.backgroundColor="blue"
+          targetDiv.style.display = "block";
+          btn.style.color="black"
+        //   btn.style.backgroundColor="white"
+          getDiv.style.display = "none";
+
+        }
+      };
+
+      butn.onclick = function () {
+        if (getDiv.style.display === "block" || targetDiv.style.display === "none") {
+          getDiv.style.display = "block";
+          btn.style.backgroundColor="blue"
+          butn.style.backgroundColor="white"
+          butn.style.color="black"
+          targetDiv.style.display = "none";
+        } else {
+            btn.style.backgroundColor="blue"
+            butn.style.backgroundColor="white"
+            butn.style.color="black"          
+          getDiv.style.display = "block";
+          targetDiv.style.display = "none";
+
+        }
+      };
+    </script>
+
+
+
+
+        <div class="foam">
+            <form action="">
+                <h1>CONTACT US</h1>
+
+                <div class="box">
+                    <label for="" >full name :</label><br>
+                    <input type="text" placeholder="first name"> <input type="text" placeholder="last name">
+                    <br>
+                    <label for="">email :</label><br>
+                    <input type="text" placeholder="example@gmail.com">
+                    <br>
+                    
+                    <input type="text" placeholder="area code" size="4"><br> <label for="">contact number :</label><br><input type="text" placeholder="phone number"><br>
+                    <label for="">message :</label><br>
+                    <textarea name="" id="" cols="60" rows="5"></textarea><br>
+                   
+                    <br>
+                    <button>submit</button>
+                </div>
+            </form>
+        </div></div>
+
+        <footer>
+            <div class="f-grid">
+                <div class="q-links">
+                    <ul>
+                        <li class="f-head">CONTACT</li>
+                        <li> No 78/5 (1st Floor) Ja-Ela Road Ekala Sri Lanka</li>
+                        <li> Office - 0112242209</li>
+                        <li> Mobile - 0770244992 / 0701900264 / 0779643264</li>
+                        
+                    </ul>
+                </div>
+                <div class="website">
+                    <ul>
+                        <li class="f-head"> COMPANY</li>
+                        <li><a href="#"> About Us</a></li>
+                        <li><a href="#"> Blog</a></li>
+                        <li><a href="#"> Contact</a></li>
+                        <li><a href="#">Become a Teacher</a></li>
+                    </ul>
+                </div>
+                <div class="Get">
+                    <ul>
+                        <li class="f-head"> PROGRAMS</li>
+                        <li><a href="#"> Professional Courses</a></li>
+                        <li><a href="#">School classes</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            
+                
+                </div>
+                
+                <div class="f-bottom">
+                    <div class="f-b-links">
+                        <ul >
+                            <li><a href="#"> Home</a></li>
+                            <li><a href="#"> Privacy</a></li>
+                            <li><a href="#"> Terms</a></li>
+                            <li><a href="#"> Sitemap</a></li>
+                                            
+                        </ul>
+                    </div>
+                    
+                    <div class="social-links">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube-square"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2021 Lanka Talents Creation (Pvt) Ltd. All Rights Reserved.</p>
+                </div>
+                
+            </footer>
+
+            </div>
+        
+</body>
+</html>

@@ -1,0 +1,236 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+	background-color: white;
+}
+
+.main-img img{
+
+    height:400px;
+    width:100%;
+    object-fit:cover;
+}
+
+.img-txt{
+	position:absolute;
+	top:170px;
+	color:white;
+	font-size:48px;
+	
+	width:55%;
+	text-align:center;
+	left:25%;
+}
+
+@media (max-width:1250px){
+	.img-txt{
+		font-size:40px;
+	}
+}
+
+.img-txt a{
+
+    color: white;
+}
+
+.c-grid{
+	
+	margin-top:60px;
+	justify-content:center;
+	display:grid;
+	grid-template-columns:900px 300px ;
+	column-gap:30px;
+	row-gap:50px;
+    
+}
+
+@media (max-width:1250px){
+	.c-grid{
+		grid-template-columns:400px;
+	}
+}
+
+.left{
+
+    box-shadow:0px 0px 12px rgba(0,0,0,0.2);
+}
+
+.search-category{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+}
+
+/*@media (max-width:800px){
+	p #one{
+		float:left;
+	}
+}*/
+
+.c2-grid{
+    padding:20px;
+	justify-content:center;
+	display:grid;
+	grid-template-columns:400px 500px ;
+	column-gap:0px;
+	row-gap:50px;
+    
+    
+
+}
+
+.courses{
+
+    border-bottom: 1px solid black;
+}
+
+.courses img{
+
+    width :350px;
+    padding-left: 10px;
+    
+}
+
+@media (max-width:1250px){
+	.c2-grid{
+		grid-template-columns:400px;
+        
+	}
+
+    .course-img{
+        padding: 10px;
+    }
+
+    .course-text{
+        padding: 20px;
+    }
+}
+
+
+
+.courses:hover{
+
+    background-color: rgb(252, 245, 245);
+    color: blue;
+
+}
+
+.courses:hover img{
+
+    
+    opacity: 0.5;
+
+}
+
+.courses:hover a{
+
+    
+    color: blue;
+
+}
+
+.middle{
+    transition: 0.5s ease;
+    opacity: 0;
+    position: relative;
+    top:-45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+
+
+}
+
+.courses:hover .middle{
+
+    opacity: 1;
+
+}
+
+.dropbtn{
+    background-color: white;
+    padding:16px;
+    font-size: 16px;
+    border:1px solid black;
+    width:300px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    
+
+}
+
+.dropdown-content{
+    
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    display:none;
+    
+
+}
+
+.dropdown-content a{
+    
+    color:black;
+    padding: 10px;
+    text-decoration: none;
+    display:block;
+    
+
+}
+
+.show{display: block;}
+
+
+
+
+
+.c-start {
+	text-decoration:none;
+	height:35px;
+	width:auto;
+	font-size:14px;
+    border-radius:20px;
+	cursor:pointer;
+    border-style:solid;
+	border-color:rgb(235, 230, 230);
+    background-color: rgb(235, 230, 230);
+    padding: 5px;
+	
+}
+
+#tags{
+    margin-top: 0;
+}
+
+.dropbtn2{
+
+    background-color: white;
+    margin-left: 150px;
+    border: white;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+

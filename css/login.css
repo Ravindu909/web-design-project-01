@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+	background-color: white;
+}
+
+.main-img img{
+
+    height:400px;
+    width:100%;
+    object-fit:cover;
+}
+
+.img-txt{
+	position:absolute;
+	top:170px;
+	color:white;
+	font-size:48px;
+	
+	width:55%;
+	text-align:center;
+	left:25%;
+}
+
+@media (max-width:1250px){
+	.img-txt{
+		font-size:29px;
+	}
+}
+
+.img-txt a{
+
+    color: white;
+}
+
+.c-grid{
+	
+	margin-top:150px;
+	justify-content:center;
+	display:grid;
+	grid-template-columns:500px ;
+	column-gap:30px;
+	row-gap:50px;
+    
+}
+
+#username{
+    width:100%;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    border: 1px rgb(205, 230, 230) solid;
+    border-radius: 3px;
+}
+
+#f-password a{
+    color: orangered;
+    text-decoration-line: underline;
+}
+
+#f-password a:hover{
+    color: orangered;
+    text-decoration-line: none;
+}
+
+#log-in{
+    width:100%;
+    height: 40px;
+    font-size: 15px;
+    border: 1px rgb(205, 230, 230) solid;
+    border-radius: 3px;
+    background-color: rgb(29, 29, 122);
+    color: white;
+    cursor: pointer;
+
+}
+
+#log-in:hover{
+    color:rgb(29, 29, 122) ;
+    background-color: white;
+    transition-duration: 0.5s;
+    border: 1px solid rgb(29, 29, 122);
+
+}
+
+#cookies a{
+        color: lightblue;
+}
+
+#log-guest{
+    width:100%;
+    height: 40px;
+    font-size: 15px;
+    border: 1px rgb(205, 230, 230) solid;
+    border-radius: 3px;
+    background-color: rgb(192, 175, 175);
+    color: white;
+    cursor: pointer;
+
+}
+
+#log-guest:hover{
+    color:rgb(192, 175, 175) ;
+    background-color: white;
+    transition-duration: 0.5s;
+    border: 1px solid rgb(192, 175, 175);
+
+}
+
+#or{
+    padding-left: 240px;
+    color: rgb(214, 202, 202);
+}
+
+
+
+#f-time{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#a-text{
+    color: rgb(214, 202, 202);
+    font-size: 20px;
+}
+
+#create-acc{
+    width:50%;
+    height: 40px;
+    font-size: 15px;
+    border: 1px rgb(205, 230, 230) solid;
+    border-radius: 3px;
+    background-color: rgb(192, 175, 175);
+    color: white;
+    cursor: pointer;
+
+}
+
+#create-acc:hover{
+    color:rgb(192, 175, 175) ;
+    background-color: white;
+    transition-duration: 0.5s;
+    border: 1px solid rgb(192, 175, 175);
+
+}
